@@ -1,4 +1,8 @@
-#header-start > a {
+#header-section {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+#header-start>a {
     text-transform: capitalize;
 }
 
@@ -7,7 +11,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    #header-start, #header-end {
+
+    #header-start,
+    #header-end {
         display: none !important;
     }
 

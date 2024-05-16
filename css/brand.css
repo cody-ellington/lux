@@ -5,13 +5,20 @@
 }
 
 .featurette-heading {
-    letter-spacing: -.05rem;
-    text-transform: capitalize;
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.featurette-content {
+    line-height: 2rem;
+    font-size: 1rem;
 }
 
 .featurette-section {
     overflow: hidden;
+}
+
+.sticky-text {
+    font-size: .75rem;
 }
 
 @media screen and (max-width: 768px) {

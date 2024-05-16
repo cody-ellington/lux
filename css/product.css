@@ -4,3 +4,19 @@
     background-size: 100% auto;
 }
 
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 90px
+}
+
+.owl-prev span, .owl-next span {
+    font-size: 80px;
+}
+
+.owl-prev {
+    left: -30px;
+}
+
+.owl-next {
+    right: -30px;
+}
