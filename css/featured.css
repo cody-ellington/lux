@@ -1,0 +1,32 @@
+.featured-item {
+    height: 200px;
+}
+
+.featured-text {
+    color: white;
+    text-transform: uppercase;
+}
+
+.featured-title {
+    text-transform: uppercase;
+}
+
+#featured-item-1 {
+    background: url('../img/featured-2.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#featured-item-2 {
+    background: url('../img/featured-1.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#featured-item-3 {
+    background: url('../img/featured-4.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#featured-item-4 {
+    background: url('../img/featured-5.jpg') no-repeat;
+    background-size: 100% 100%;
+}

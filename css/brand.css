@@ -1,0 +1,29 @@
+#brand-story {
+    background: url("../img/hidden-bg.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% auto;
+}
+
+.featurette-heading {
+    letter-spacing: -.05rem;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.featurette-section {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    #sticky-bar {
+        display: none !important;
+    }
+
+    #sec-1 {
+        margin-top: 10vw;
+    }
+
+    .featurette-section {
+        text-align: center;
+    }
+}

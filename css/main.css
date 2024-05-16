@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('../font/Helve/HelveticaNeue.otf');
+}
+
+@font-face {
+    font-family: Helvetica;
+    font-weight: bold;
+    src: url('../font/Helve/HelveticaNeue-Bold.otf');
+}
+
+@font-face {
+    font-family: Helvetica;
+    font-style: italic;
+    src: url("../font/Helve/HelveticaNeue-Italic.otf");
+}
+
+*,
+html {
+    font-family: Helvetica, sans-serif;
+    font-optical-sizing: auto;
+}
+
+a {
+    text-decoration: none !important;
+}

@@ -1,0 +1,12 @@
+/* #fast-info-section {
+    margin-top: 100px !important;
+} */
+
+.fast-title {
+    text-transform: uppercase;    
+}
+
+.fast-subtitle {
+    font-size: 0.8vw;
+    color: gray;
+}
