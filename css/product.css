@@ -11,6 +11,7 @@
 
 .owl-prev span, .owl-next span {
     font-size: 80px;
+    font-family: ui-monospace !important;
 }
 
 .owl-prev {
@@ -19,4 +20,9 @@
 
 .owl-next {
     right: -30px;
+}
+
+.container > .nav > .nav-item > .active {
+    background: black !important;
+    color: white !important;
 }
