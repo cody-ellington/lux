@@ -1,7 +1,7 @@
 #brand-story {
     background: url("../img/[1320x320] banner section 2.png") no-repeat;
     background-position: 50% 50%;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 #featurette-section {

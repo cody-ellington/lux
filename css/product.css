@@ -1,7 +1,7 @@
 #san-pham {
     background: url("../img/[1320x350] banner section 1.png") no-repeat;
     background-position: 50% 50%;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 .owl-prev, .owl-next {
