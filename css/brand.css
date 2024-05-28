@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.brand-title {
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
 .featurette-heading {
     font-size: 2rem;
 }
@@ -27,6 +31,8 @@
     #brand-story {
         border-radius: 5% !important;
         transform: scale(0.95) !important;
+        background-size: auto 100%;
+        background-position: center;
     }
 
     .brand-title {

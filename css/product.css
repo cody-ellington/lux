@@ -3,6 +3,10 @@
     height: 350px;
 }
 
+#product-section-title {
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
 .owl-prev,
 .owl-next {
     position: absolute;
@@ -31,13 +35,15 @@
 @media screen and (max-width: 768px) {
     #san-pham {
         transform: scale(0.95) !important;
+        background-size: auto 100%;
+        background-position: center;
         height: 150px;
     }
 
     #product-section-title,
     #product-section-title>span {
-        font-size: 4.5vw !important;
-        line-height: 7vw;
+        font-size: 7.3vw !important;
+        line-height: 10vw;
     }
 
     .product-tab-name {
