@@ -35,6 +35,11 @@
         background-position: center;
     }
 
+    .fast-paragraph {
+        text-align: center;
+        line-height: 5.5vw;
+    }
+
     .brand-title {
         font-size: 6.8vw !important;
     }
@@ -57,9 +62,9 @@
     }
 
     .featurette-content {
-        text-align: justify;
+        text-align: center;
         font-size: 3.2vw;
-        line-height: 6vw;
+        line-height: 5.5vw;
     }
 
     .brand-img {
