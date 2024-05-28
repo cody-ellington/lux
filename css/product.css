@@ -1,13 +1,16 @@
 #san-pham {
     background: url("../img/[1320x350] banner section 1.png") no-repeat;
+    height: 350px;
 }
 
-.owl-prev, .owl-next {
+.owl-prev,
+.owl-next {
     position: absolute;
     top: 90px
 }
 
-.owl-prev span, .owl-next span {
+.owl-prev span,
+.owl-next span {
     font-size: 80px;
     font-family: ui-monospace !important;
 }
@@ -20,7 +23,7 @@
     right: -30px;
 }
 
-.container > .nav > .nav-item > .active {
+.container>.nav>.nav-item>.active {
     background: black !important;
     color: white !important;
 }
@@ -28,9 +31,11 @@
 @media screen and (max-width: 768px) {
     #san-pham {
         transform: scale(0.95) !important;
+        height: 150px;
     }
-    
-    #product-section-title, #product-section-title > span {
+
+    #product-section-title,
+    #product-section-title>span {
         font-size: 4.5vw !important;
         line-height: 7vw;
     }

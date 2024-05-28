@@ -15,6 +15,12 @@
     src: url("../font/Helve/HelveticaNeue-Italic.otf");
 }
 
+@font-face {
+    font-family: Helvetica;
+    font-weight: light;
+    src: url("../font/Helve/HelveticaNeue-Light.otf");
+}
+
 *,
 html {
     font-family: Helvetica, sans-serif;
