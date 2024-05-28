@@ -22,6 +22,15 @@
 }
 
 @media screen and (max-width: 768px) {
+    #brand-story {
+        border-radius: 5% !important;
+        transform: scale(0.95) !important;
+    }
+
+    .brand-title {
+        font-size: 6.8vw !important;
+    }
+    
     #sticky-bar {
         display: none !important;
     }
@@ -32,5 +41,21 @@
 
     .featurette-section {
         text-align: center;
+    }
+
+    .featurette-heading {
+        font-size: 5vw;
+        text-transform: capitalize;
+    }
+
+    .featurette-content {
+        text-align: justify;
+        font-size: 3.2vw;
+        line-height: 6vw;
+    }
+
+    .brand-img {
+        padding: 0 !important;
+        transform: scale(0.9) !important;
     }
 }

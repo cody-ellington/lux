@@ -26,3 +26,18 @@
     background: black !important;
     color: white !important;
 }
+
+@media screen and (max-width: 768px) {
+    #san-pham {
+        transform: scale(0.95) !important;
+    }
+    
+    #product-section-title, #product-section-title > span {
+        font-size: 4.5vw !important;
+        line-height: 7vw;
+    }
+
+    .product-tab-name {
+        font-size: 3vw !important;
+    }
+}

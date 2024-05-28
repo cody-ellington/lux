@@ -17,10 +17,23 @@
         display: none !important;
     }
 
+    #main-logo {
+        width: 65%;
+    }
+
+    #header-middle {
+        margin: 20px;
+        text-align: center;
+    }
+
     #mobile-nav {
         display: flex;
         justify-content: space-around;
         padding: 3vw;
         text-transform: uppercase;
+    }
+
+    #mobile-nav > a {
+        font-size: 2.5vw;
     }
 }
