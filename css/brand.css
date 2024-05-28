@@ -4,6 +4,10 @@
     background-size: 100% auto;
 }
 
+#featurette-section {
+    overflow: hidden;
+}
+
 .featurette-heading {
     font-size: 2rem;
 }
