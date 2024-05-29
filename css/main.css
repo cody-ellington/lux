@@ -36,5 +36,7 @@ a {
 }
 
 .contact-form-title {
-    font-size: 3.8vh;
-}
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}   
