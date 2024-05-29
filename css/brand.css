@@ -26,6 +26,12 @@
 
 .sticky-text {
     font-size: .75rem;
+    transition: all 0.3s;
+}
+
+.sticky-text:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 @media screen and (max-width: 768px) {
