@@ -35,8 +35,40 @@ a {
     margin: 0 !important;
 }
 
+/* FOOTER SECTION */
 .contact-form-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     font-weight: bold;
-}   
+}
+
+@media screen and (max-width: 768px) {
+    .contact-form-subtitle {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        text-align: left !important;
+    }
+    
+    .footer-img {
+        width: 70%;
+    }
+
+    .co-info > h5 {
+        font-size: 4vw;
+    }
+
+    .co-info > h6 {
+        margin-bottom: 10px !important;
+    }
+
+    .co-info > p {
+        font-size: 3vw
+    }
+
+    #footer-contact-form input, #emailHelp, .confirm-check, #footer-contact-form button {
+        font-size: 0.7rem;
+    }
+
+}

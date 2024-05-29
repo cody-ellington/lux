@@ -11,6 +11,10 @@
     color: #c72127;
 }
 
+.sub-title-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .fast-paragraph {
         text-align: justify;
@@ -24,5 +28,13 @@
 
     .fast-subtitle {
         font-size: 5vw;
+    }
+
+    .sub-title-mobile {
+        display: block;
+    }
+
+    .sub-title-desktop {
+        display: none;
     }
 }
