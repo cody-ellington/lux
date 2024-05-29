@@ -31,6 +31,10 @@ a {
     text-decoration: none !important;
 }
 
+.alter-divider {
+    margin: 0 !important;
+}
+
 .contact-form-title {
     font-size: 3.8vh;
 }

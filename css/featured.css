@@ -15,5 +15,10 @@
 @media screen and (max-width: 768px) {
     .featured-title {
         font-size: 5vw !important;
+        
+    }
+
+    #featured {
+        margin-top: 5vw !important;
     }
 }
