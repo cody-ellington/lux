@@ -48,7 +48,7 @@
     }
 
     .brand-title {
-        font-size: 6.8vw !important;
+        font-size: 7vw !important;
     }
 
     #sticky-bar {
@@ -64,13 +64,13 @@
     }
 
     .featurette-heading {
-        font-size: 5vw;
+        font-size: 7vw;
         text-transform: capitalize;
     }
 
     .featurette-content {
         text-align: center;
-        font-size: 3.2vw;
+        font-size: 3.7vw;
         line-height: 5.5vw;
     }
 

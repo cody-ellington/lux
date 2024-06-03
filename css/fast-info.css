@@ -18,16 +18,16 @@
 @media screen and (max-width: 768px) {
     .fast-paragraph {
         text-align: justify;
-        font-size: 3vw;
+        font-size: 3.7vw;
     }
 
     .fast-title {
-        font-size: 6vw !important;
+        font-size: 7vw !important;
         text-align: center;
     }
 
     .fast-subtitle {
-        font-size: 4.5vw;
+        font-size: 4.7vw;
     }
 
     .sub-title-mobile {
