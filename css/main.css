@@ -55,6 +55,10 @@ a {
         width: 70%;
     }
 
+    .co-info {
+        margin-top: 0 !important;
+    }
+
     .co-info > h5 {
         font-size: 4vw;
     }
@@ -67,8 +71,24 @@ a {
         font-size: 3vw
     }
 
+    .co-info-p-up {
+        margin-bottom: 0 !important;
+    }
+
     #footer-contact-form input, #emailHelp, .confirm-check, #footer-contact-form button {
         font-size: 0.7rem;
+    }
+
+    .footer-div {
+        margin: 0 !important;
+    }
+
+    .copyright {
+        font-size: 4vw;
+    }
+
+    .footer-site {
+        margin-bottom: 0 !important;
     }
 
 }
