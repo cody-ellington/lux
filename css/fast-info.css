@@ -2,6 +2,10 @@
     margin-top: 100px !important;
 } */
 
+.fast-paragraph, .sub-title-desktop {
+    text-align: justify;
+}
+
 .fast-title {
     text-transform: uppercase;
 }
