@@ -44,7 +44,7 @@
     }
 
     .fast-paragraph {
-        text-align: center;
+        text-align: justify;
         line-height: 5.5vw;
     }
 
@@ -70,7 +70,7 @@
     }
 
     .featurette-content {
-        text-align: center;
+        text-align: justify;
         font-size: 3.7vw;
         line-height: 5.5vw;
     }
