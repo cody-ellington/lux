@@ -21,10 +21,36 @@
     src: url("../font/Helve/HelveticaNeue-Light.otf");
 }
 
+/* FONT CUSTOM - POPPINS */
+@font-face {
+    font-family: Poppins;
+    src: url('../font/Poppin/FZPoppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: bold;
+    src: url('../font/Poppin/FZPoppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: italic;
+    src: url("../font/Poppin/FZPoppins-Italic.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: light;
+    src: url("../font/Poppin/FZPoppins-Light.ttf");
+}
+
 *,
 html {
-    font-family: Helvetica, sans-serif;
-    font-optical-sizing: auto;
+    /* font-family: Poppins, sans-serif; */
+    /* font-optical-sizing: auto; */
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 a {
@@ -50,7 +76,7 @@ a {
     footer {
         text-align: left !important;
     }
-    
+
     .footer-img {
         width: 70%;
     }
@@ -59,15 +85,15 @@ a {
         margin-top: 0 !important;
     }
 
-    .co-info > h5 {
+    .co-info>h5 {
         font-size: 4vw;
     }
 
-    .co-info > h6 {
+    .co-info>h6 {
         margin-bottom: 10px !important;
     }
 
-    .co-info > p {
+    .co-info>p {
         font-size: 3vw
     }
 
@@ -75,7 +101,10 @@ a {
         margin-bottom: 0 !important;
     }
 
-    #footer-contact-form input, #emailHelp, .confirm-check, #footer-contact-form button {
+    #footer-contact-form input,
+    #emailHelp,
+    .confirm-check,
+    #footer-contact-form button {
         font-size: 0.7rem;
     }
 
